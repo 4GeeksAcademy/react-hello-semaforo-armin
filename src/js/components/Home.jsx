@@ -5,7 +5,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 const Home = () => {
-    const [ color, setColor] = useState("danger");
+    const [ color, setColor] = useState("");
  
      return (
         <div className="card d-flex justify-content-center bg-dark mt-5 mx-auto p-5 " style={{ maxWidth: "250px" }}>
